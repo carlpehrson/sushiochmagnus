@@ -69,24 +69,18 @@ export default {
 </script>
 
 <style>
-/*#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}*/
-a {
-  color:#336699;
-}
-
-body {
+#app {
   font-family:helvetica;
   padding:0px;
 }
 
+a {
+  color:#336699;
+}
+
 h1 {
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
   font-size: 2em;
   text-align: center;
 }
