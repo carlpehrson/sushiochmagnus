@@ -1,23 +1,23 @@
 <template>
   <div class="pagecontent">
-    <h1>{{ sv.h1 }}</h1>
-    <p>{{ sv.p1 }}</p>
+    <h1>{{ h1[$router.app.lang] }}</h1>
+    <p>{{ p1[$router.app.lang] }}</p>
 
-    <h2>{{ sv.h2 }}</h2>
+    <h2>{{ h2[$router.app.lang] }}</h2>
 
     <p>
-      {{ sv.listHeader }}
+      {{ listHeader[$router.app.lang] }}
       <ul>
-        <li v-for="item in sv.list" :key="item.id">
+        <li v-for="item in list[$router.app.lang]" :key="item.id">
           {{ item }}
         </li>
       </ul>
     </p>
 
     <p>
-      <b>{{ sv.h3 }}</b>
+      <b>{{ h3[$router.app.lang] }}</b>
       <br>
-      {{ sv.p2 }}
+      {{ p2[$router.app.lang] }}
     </p>
   </div>
 </template>
@@ -27,17 +27,33 @@ export default {
   name: 'Dresscode',
   data () {
     return {
-      sv: {
-        h1: 'Dresscode',
-        p1: 'Klädkod brukar ofta ge många frågetecken när man går på bröllop då ettiketten på senare år har ändrats. Vi har valt att använda den engelska klädkoden "Black Tie Optional".',
-        h2: 'Okej, men vad betyder detta?',
-        listHeader: 'Den korta versionen är:',
-        list: [
-          'För herrar: Mörk kostym, alternativt smoking',
-          'För damer: Festlig klänning (ej golvlång) alternativt kjol med topp'
-        ],
-        h3: 'För männen',
-        p2: 'Mörk kostym och smoking har traditionellt sett aldrig blandats utan har varit antingen eller. Vi har valt att använda den engelska definitionen "Black Tie Optional", vilket innebär mer frihet för både damer och herrar. För männen innebär detta att man antingen kan ha mörk kostym (grå/blå/svart) eller ha svart/mörk smoking.'
+      h1: {
+        sv: 'Dresscode',
+        en: 'Dresscode'
+      },
+      p1: {
+        sv: 'Klädkod brukar ofta ge många frågetecken när man går på bröllop då ettiketten på senare år har ändrats. Vi har valt att använda den engelska klädkoden "Black Tie Optional".',
+        en: 'Eng1'
+      },
+      h2: {
+        sv: 'Okej, men vad betyder detta?',
+        en: 'Eng2'
+      },
+      listHeader: {
+        sv: 'Den korta versionen är:',
+        en: 'Eng3'
+      },
+      list: {
+        sv: ['För herrar: Mörk kostym, alternativt smoking', 'För damer: Festlig klänning (ej golvlång) alternativt kjol med topp'],
+        en: ['Gents', 'Ladies']
+      },
+      h3: {
+        sv: 'För männen',
+        en: 'For the gents'
+      },
+      p2: {
+        sv: 'Mörk kostym och smoking har traditionellt sett aldrig blandats utan har varit antingen eller. Vi har valt att använda den engelska definitionen "Black Tie Optional", vilket innebär mer frihet för både damer och herrar. För männen innebär detta att man antingen kan ha mörk kostym (grå/blå/svart) eller ha svart/mörk smoking.',
+        en: 'Engrish'
       }
     }
   }

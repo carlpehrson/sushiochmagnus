@@ -7,25 +7,66 @@
       <b-collapse is-nav id="nav_collapse">
 
         <b-navbar-nav>
-          <b-nav-item href="#/">Hem</b-nav-item>
-          <b-nav-item href="#/schema">Schema</b-nav-item>
-          <b-nav-item href="#/transport">Transport</b-nav-item>
-          <b-nav-item href="#/food">Dryck och allergi</b-nav-item>
-          <b-nav-item href="#/accomodation">Boende</b-nav-item>
-          <b-nav-item href="#/dresscode">Dresscode</b-nav-item>
-          <b-nav-item href="#/contact">Kontakt</b-nav-item>
+          <b-nav-item to="/">{{ home[this.$root.lang] }}</b-nav-item>
+          <b-nav-item to="/schema">{{ schema[this.$root.lang] }}</b-nav-item>
+          <b-nav-item to="/transport">{{ transport[this.$root.lang] }}</b-nav-item>
+          <b-nav-item to="/food">{{ food[this.$root.lang] }}</b-nav-item>
+          <b-nav-item to="/accomodation">{{ accomodation[this.$root.lang] }}</b-nav-item>
+          <b-nav-item to="/dresscode">{{ dresscode[this.$root.lang] }}</b-nav-item>
+          <b-nav-item to="/contact">{{ contact[this.$root.lang] }}</b-nav-item>
         </b-navbar-nav>
+
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item-dropdown text="Lang" right>
+            <b-dropdown-item v-on:click="this.$root.setLangSv">SV</b-dropdown-item>
+            <b-dropdown-item v-on:click="this.$root.setLangEn">EN</b-dropdown-item>
+          </b-nav-item-dropdown>
+        </b-navbar-nav>
+
+        <b-nav-text><b>{{ this.$root.lang }}</b></b-nav-text>
       </b-collapse>
     </b-navbar>
     <router-view/>
   </div>
 </template>
 
-<!-- // <script>
-// export default {
-//   name: 'App'
-// }
-// </script> -->
+<script>
+export default {
+  name: 'App',
+  data () {
+    return {
+      home: {
+        sv: 'Hem',
+        en: 'Home'
+      },
+      schema: {
+        sv: 'Schema',
+        en: 'Schedule'
+      },
+      transport: {
+        sv: 'Transport',
+        en: 'Transport'
+      },
+      food: {
+        sv: 'Dryck och Allergi',
+        en: 'Food and Allergies'
+      },
+      accomodation: {
+        sv: 'Boende',
+        en: 'Accomodation'
+      },
+      dresscode: {
+        sv: 'Dresscode',
+        en: 'Dresscode'
+      },
+      contact: {
+        sv: 'Kontakt',
+        en: 'Contact'
+      }
+    }
+  }
+}
+</script>
 
 <style>
 /*#app {

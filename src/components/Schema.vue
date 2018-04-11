@@ -1,11 +1,11 @@
 <template>
   <div class="pagecontent">
-    <h1>{{ sv.h1 }}</h1>
-    <p>{{ sv.p1 }}</p>
+    <h1>{{ h1[$router.app.lang] }}</h1>
+    <p>{{ p1[$router.app.lang] }}</p>
     <b-container>
       <b-row v-for="item in sv.timeline" :key="item.id">
         <b-col cols="2"><h2>{{ item.h1 }}</h2></b-col>
-        <b-col><p>{{ item.p1 }}</p></b-col>
+        <b-col><p>{{ item.p1[$router.app.lang] }}</p></b-col>
       </b-row>
     </b-container>
   </div>
@@ -16,6 +16,14 @@ export default {
   name: 'Schema',
   data () {
     return {
+      h1: {
+        sv: 'Tid och Plats',
+        en: 'Schedule'
+      },
+      p1: {
+        sv: 'Bröllopet kommer att hållas på Bro Hof Slott den 30e Juni 2018. Vigseln börjar 15:30 vilket följs av mingel och fördrink, middag, tårta och efterfest. Hela spektaklet slutar klockan 00:50, men de som känner sig färdiga tidigare eller har småbarn får avvika när ni behöver ^^',
+        en: 'English text here'
+      },
       sv: {
         h1: 'Tid och Plats',
         p1: 'Bröllopet kommer att hållas på Bro Hof Slott den 30e Juni 2018. Vigseln börjar 15:30 vilket följs av mingel och fördrink, middag, tårta och efterfest. Hela spektaklet slutar klockan 00:50, men de som känner sig färdiga tidigare eller har småbarn får avvika när ni behöver ^^',
@@ -23,35 +31,66 @@ export default {
           {
             id: 1,
             h1: '15:00',
-            p1: 'Buss avgår från Bro Station till Bro Hof Slott'
-          }, {
+            p1: {
+              sv: 'Buss avgår från Bro Station till Bro Hof Slott',
+              en: 'Buss'
+            }
+          },
+          {
             id: 2,
             h1: '15:30',
-            p1: 'Vigsel startar på gräsmattan under eken (inomhus på övervåningen vid regn)'
-          }, {
+            p1: {
+              sv: 'Vigsel startar på gräsmattan under eken (inomhus på övervåningen vid regn)',
+              en: 'Ceremony'
+            }
+          },
+          {
             id: 3,
             h1: '16:00',
-            p1: 'Vigseln slutar. Bröllopsparet tar bröllopsbilder och gästerna minglar under tiden.'
-          }, {
+            p1: {
+              sv: 'Vigseln slutar. Bröllopsparet tar bröllopsbilder och gästerna minglar under tiden.',
+              en: 'End of ceremony'
+            }
+          },
+          {
             id: 4,
             h1: '17:30',
-            p1: 'Middagen börjar på övervåningen.'
-          }, {
+            p1: {
+              sv: 'Middagen börjar på övervåningen.',
+              en: 'Foood!'
+            }
+          },
+          {
             id: 5,
             h1: '20:00',
-            p1: 'Tårta och avec följt av bröllopsdans.'
-          }, {
+            p1: {
+              sv: 'Tårta och avec följt av bröllopsdans.',
+              en: 'Cake!'
+            }
+          },
+          {
             id: 6,
             h1: '21:00ish',
-            p1: 'Middagen avslutas och efterfesten börjar.'
-          }, {
+            p1: {
+              sv: 'Middagen avslutas och efterfesten börjar.',
+              en: 'No moar food'
+            }
+          },
+          {
             id: 7,
             h1: '23:00',
-            p1: 'Efterfesten fortsätter och vickning serveras.'
-          }, {
+            p1: {
+              sv: 'Efterfesten fortsätter och vickning serveras.',
+              en: 'Party!'
+            }
+          },
+          {
             id: 8,
             h1: '00:50',
-            p1: 'Festen avslutas och buss avgår till Görvälns Slott för övernattning.'
+            p1: {
+              sv: 'Festen avslutas och buss avgår till Görvälns Slott för övernattning.',
+              en: 'No moar party'
+            }
           }
         ]
       }

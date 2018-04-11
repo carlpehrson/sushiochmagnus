@@ -1,7 +1,7 @@
 <template>
   <div class="pagecontent">
-    <h1>{{ sv.h1 }}</h1>
-    <p>{{ sv.p1 }}</p>
+    <h1>{{ h1[$router.app.lang] }}</h1>
+    <p>{{ p1[$router.app.lang] }}</p>
   </div>
 </template>
 
@@ -10,9 +10,13 @@ export default {
   name: 'Food',
   data () {
     return {
-      sv: {
-        h1: 'Dryck och Allergier',
-        p1: 'Det kommer att finnas både alkoholfritt och alkoholhaltiga dryckesalternativ. Ni får självklart dricka från båda utbuden men meddela oss innan om ni främst dricker alkoholfritt eller alkoholhaltigt så mängderna kan planeras. Meddela även om ni har några allergier så att köket kan ordna annan mat vid behov.'
+      h1: {
+        sv: 'Dryck och Allergier',
+        en: 'Food and Allergies'
+      },
+      p1: {
+        sv: 'Det kommer att finnas både alkoholfritt och alkoholhaltiga dryckesalternativ. Ni får självklart dricka från båda utbuden men meddela oss innan om ni främst dricker alkoholfritt eller alkoholhaltigt så mängderna kan planeras. Meddela även om ni har några allergier så att köket kan ordna annan mat vid behov.',
+        en: 'English text here'
       }
     }
   }
