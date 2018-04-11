@@ -4,7 +4,7 @@
     <p>{{ p1[$router.app.lang] }}</p>
     <b-container>
       <b-row v-for="item in timeline" :key="item.id">
-        <b-col cols="2"><h2>{{ item.h1 }}</h2></b-col>
+        <b-col cols="2"><p><b>{{ item.h1 }}</b></p></b-col>
         <b-col><p>{{ item.p1[$router.app.lang] }}</p></b-col>
       </b-row>
     </b-container>
