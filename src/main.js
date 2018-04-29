@@ -23,8 +23,8 @@ new Vue({
     setLangEn: function (event) {
       this.lang = 'EN'
     },
-	setLangSv: function (event) {
-	  this.lang = 'JP'
+    setLangJp: function (event) {
+      this.lang = 'JP'
     }
   },
   router,

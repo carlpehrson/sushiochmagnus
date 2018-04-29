@@ -19,12 +19,12 @@ export default {
       h1: {
         SV: 'Tid och Plats',
         EN: 'Schedule',
-		JP: 'スケジュール'
+        JP: 'スケジュール'
       },
       p1: {
         SV: 'Bröllopet kommer att hållas på Bro Hof Slott den 30e Juni 2018. Vigseln börjar 15:30 vilket följs av mingel och fördrink, middag, tårta och efterfest. Hela spektaklet slutar klockan 00:50, men de som känner sig färdiga tidigare eller har småbarn får avvika när ni behöver ^^',
         EN: 'The wedding will be held at Bro Hof Slott the 30th of June. The Ceremony will begin at 15:30 followed by drinks and appetisers, dinner, cake, and an afterparty. For those not yet fallen, the party ends at 00:50 where we will go together by bus stopping once at Bro Station, and continue to Görvälns Slott for those staying at the hotel. ',
-		JP: '結婚式は6月30日にBro Hof Slottに開催します！式は15：30に始まり、その後は披露宴、ケーキ、2次会、バーベキューなどです。夜中の00：50に終わりまして、そこからは一緒にバス乗って、Bro Stationで帰る人を降ろして、泊まる人は一緒にGörvälns Slottまで行きます。'
+        JP: '結婚式は6月30日にBro Hof Slottに開催します！式は15：30に始まり、その後は披露宴、ケーキ、2次会、バーベキューなどです。夜中の00：50に終わりまして、そこからは一緒にバス乗って、Bro Stationで帰る人を降ろして、泊まる人は一緒にGörvälns Slottまで行きます。'
       },
       timeline: [
         {
@@ -32,7 +32,7 @@ export default {
           p1: {
             SV: 'Buss avgår från Bro Station till Bro Hof Slott',
             EN: 'Bus leaves Bro Station going to Bro Hof Slott',
-			JP: 'Bro StationからBro Hof Slottへのバスが出発'
+            JP: 'Bro StationからBro Hof Slottへのバスが出発'
           }
         },
         {
@@ -40,7 +40,7 @@ export default {
           p1: {
             SV: 'Vigsel startar på gräsmattan under eken (inomhus på övervåningen vid regn)',
             EN: 'Wedding ceremony begins under the large oak (indoors in case of rain)',
-			JP: '結婚式がオークの下の芝で始まる（雨の場合は城の2階で）'
+            JP: '結婚式がオークの下の芝で始まる（雨の場合は城の2階で）'
           }
         },
         {
@@ -48,7 +48,7 @@ export default {
           p1: {
             SV: 'Vigseln slutar. Bröllopsparet tar bröllopsbilder och gästerna minglar under tiden.',
             EN: 'End of ceremony. Bride and groom takes wedding pictures while the guests mingle with drinks and appetisers.',
-			JP: '式終了。新郎新婦は写真を撮っている間に、ゲストは話したり飲んだりする。'
+            JP: '式終了。新郎新婦は写真を撮っている間に、ゲストは話したり飲んだりする。'
           }
         },
         {
@@ -56,7 +56,7 @@ export default {
           p1: {
             SV: 'Middagen börjar på övervåningen.',
             EN: 'Dinner begins at the second floor of the castle',
-			JP: '披露宴は2階で始まる。'
+            JP: '披露宴は2階で始まる。'
           }
         },
         {
@@ -64,7 +64,7 @@ export default {
           p1: {
             SV: 'Tårta och avec följt av bröllopsdans.',
             EN: 'Wedding cake, avec, wedding dance',
-			JP: 'ケーキ、飲み物、新郎新婦のダンス'
+            JP: 'ケーキ、飲み物、新郎新婦のダンス'
           }
         },
         {
@@ -72,7 +72,7 @@ export default {
           p1: {
             SV: 'Middagen avslutas och efterfesten börjar!',
             EN: 'Food is over, party is not!',
-			JP: '披露宴終了、2次会開始！'
+            JP: '披露宴終了、2次会開始！'
           }
         },
         {
@@ -80,7 +80,7 @@ export default {
           p1: {
             SV: 'Efterfesten fortsätter och vickning serveras.',
             EN: 'Party continues with snacks / a light meal.',
-			JP: '夜中軽食、2次会が続く。'
+            JP: '夜中軽食、2次会が続く。'
           }
         },
         {
@@ -88,7 +88,7 @@ export default {
           p1: {
             SV: 'Festen avslutas och buss avgår till Görvälns Slott för övernattning.',
             EN: 'Party is over, bus via Bro Station to Görvälns Slott for hotel.',
-			JP: '2次会終了、バスでBro Station軽油でGörvälns Slottまで行って泊まる。'
+            JP: '2次会終了、バスでBro Station軽油でGörvälns Slottまで行って泊まる。'
           }
         }
       ]
