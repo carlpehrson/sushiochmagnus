@@ -14,12 +14,14 @@ export default {
   data () {
     return {
       h1: {
-        sv: 'Kontakt',
-        en: 'Contact'
+        SV: 'Kontakt',
+        EN: 'Contact',
+		JP: 'コンタクト'
       },
       p1: {
-        sv: 'Om det är något som är oklart, om ni vill hålla tal, om ni har några funderingar kring presentlistan, eller om det är något annat som är oklart, så kan ni kontakta Toastmaster Erik Ferm på följande mail:',
-        en: 'English'
+        SV: 'Om det är något som är oklart, om ni vill hålla tal, om ni har några funderingar kring presentlistan, eller om det är något annat som är oklart, så kan ni kontakta Toastmaster Erik Ferm på följande mail:',
+        EN: 'If you have any questions, if you would like to do a speech, if you have any questions regrading the presents, please contact Toastmaster Erik Ferm at the following mail:',
+		JP: '何かのご不明な点のある方、スピーチしたい方、プレゼントについてのご質問のある方は、トーストマスター（エリック）に以下のメールまでご連絡ください！（大丈夫、日本語できるやつ）：'
       },
       a1: 'Sussie',
       a2: 'Magne',
