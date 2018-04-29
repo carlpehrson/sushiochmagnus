@@ -14,14 +14,17 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   data: {
-    lang: 'sv'
+    lang: 'SV'
   },
   methods: {
     setLangSv: function (event) {
-      this.lang = 'sv'
+      this.lang = 'SV'
     },
     setLangEn: function (event) {
-      this.lang = 'en'
+      this.lang = 'EN'
+    },
+	setLangSv: function (event) {
+	  this.lang = 'JP'
     }
   },
   router,

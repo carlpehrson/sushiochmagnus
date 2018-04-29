@@ -20,6 +20,7 @@
           <b-nav-item-dropdown text="Lang" right>
             <b-dropdown-item v-on:click="this.$root.setLangSv">SV</b-dropdown-item>
             <b-dropdown-item v-on:click="this.$root.setLangEn">EN</b-dropdown-item>
+			<b-dropdown-item v-on:click="this.$root.setLangEn">JP</b-dropdown-item>
           </b-nav-item-dropdown>
         </b-navbar-nav>
 
@@ -36,32 +37,39 @@ export default {
   data () {
     return {
       home: {
-        sv: 'Hem',
-        en: 'Home'
+        SV: 'Hem',
+        EN: 'Home',
+		JP: 'ホーム'
       },
       schema: {
-        sv: 'Schema',
-        en: 'Schedule'
+        SV: 'Schema',
+        EN: 'Schedule',
+		JP: 'スケジュール'
       },
       transport: {
-        sv: 'Transport',
-        en: 'Transport'
+        SV: 'Transport',
+        EN: 'Transport',
+		JP: '交通'
       },
       food: {
-        sv: 'Dryck och Allergi',
-        en: 'Food and Allergies'
+        SV: 'Dryck och Allergi',
+        EN: 'Food and Allergies',
+		JP: '飲み物・アレルギー'
       },
       accomodation: {
-        sv: 'Boende',
-        en: 'Accomodation'
+        SV: 'Boende',
+        EN: 'Accomodation',
+		JP: '宿泊'
       },
       dresscode: {
-        sv: 'Dresscode',
-        en: 'Dresscode'
+        SV: 'Dresscode',
+        EN: 'Dresscode',
+		JP: '服装規定'
       },
       contact: {
-        sv: 'Kontakt',
-        en: 'Contact'
+        SV: 'Kontakt',
+        EN: 'Contact',
+		JP: 'コンタクト'
       }
     }
   }
