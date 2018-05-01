@@ -13,7 +13,7 @@ export default {
       h1: {
         SV: 'Önskelista',
         EN: 'Wishlist',
-        JP: 'コンタクト'
+        JP: 'ウィッシュリスト（外国人のみ）'
       }
     }
   }
@@ -34,5 +34,6 @@ span.displaynone {
 
 iframe {
   width: 100%;
+  height: 600px;
 }
 </style>

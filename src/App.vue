@@ -75,7 +75,7 @@ export default {
       wishlist: {
         SV: 'Önskelista',
         EN: 'Wishlist',
-        JP: 'コンタクト'
+        JP: 'ウィッシュリスト'
       }
     }
   }
