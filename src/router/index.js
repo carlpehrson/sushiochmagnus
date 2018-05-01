@@ -7,17 +7,18 @@ import Food from '@/components/Food'
 import Accomodation from '@/components/Accomodation'
 import Dresscode from '@/components/Dresscode'
 import Contact from '@/components/Contact'
+import Wishlist from '@/components/Wishlist'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/',
+      path: '/home',
       name: 'Home',
       component: Home
     }, {
-      path: '/schema',
+      path: '/schedule',
       name: 'Schema',
       component: Schema
     }, {
@@ -40,6 +41,10 @@ export default new Router({
       path: '/contact',
       name: 'Contact',
       component: Contact
+    }, {
+      path: '/wishlist',
+      name: 'Wishlist',
+      component: Wishlist
     }
   ]
 })

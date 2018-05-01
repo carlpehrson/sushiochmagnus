@@ -1,18 +1,19 @@
 <template>
   <div class="border" id="app">
-    <b-navbar toggleable="md" type="dark" variant="dark">
+    <b-navbar toggleable="md">
 
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
       <b-collapse is-nav id="nav_collapse">
 
         <b-navbar-nav>
-          <b-nav-item to="/">{{ home[this.$root.lang] }}</b-nav-item>
-          <b-nav-item to="/schema">{{ schema[this.$root.lang] }}</b-nav-item>
+          <b-nav-item to="/home">{{ home[this.$root.lang] }}</b-nav-item>
+          <b-nav-item to="/schedule">{{ schema[this.$root.lang] }}</b-nav-item>
           <b-nav-item to="/transport">{{ transport[this.$root.lang] }}</b-nav-item>
           <b-nav-item to="/food">{{ food[this.$root.lang] }}</b-nav-item>
           <b-nav-item to="/accomodation">{{ accomodation[this.$root.lang] }}</b-nav-item>
           <b-nav-item to="/dresscode">{{ dresscode[this.$root.lang] }}</b-nav-item>
+          <b-nav-item to="/wishlist">{{ wishlist[this.$root.lang] }}</b-nav-item>
           <b-nav-item to="/contact">{{ contact[this.$root.lang] }}</b-nav-item>
         </b-navbar-nav>
 
@@ -70,6 +71,11 @@ export default {
         SV: 'Kontakt',
         EN: 'Contact',
         JP: 'コンタクト'
+      },
+      wishlist: {
+        SV: 'Önskelista',
+        EN: 'Wishlist',
+        JP: 'コンタクト'
       }
     }
   }
@@ -82,8 +88,20 @@ export default {
   padding:0px;
 }
 
+.navbar {
+  background-color: #f77bbaa3;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+  font-weight: bolder;
+}
+
 a {
-  color:#336699;
+  color:#000;
 }
 
 h1 {
@@ -105,7 +123,9 @@ p {
   margin:0.75em auto 0.75em auto;
   overflow:hidden;
   max-width:1024px;
+  min-height: 768px;
   background-color:white;
   box-shadow: 0px 0px 18px #888888;
+
 }
 </style>

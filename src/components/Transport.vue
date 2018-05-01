@@ -2,7 +2,9 @@
   <div class="pagecontent">
     <h1>{{ h1[$router.app.lang] }}</h1>
     <p>{{ p1[$router.app.lang] }}</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d8099.065390054341!2d17.624248545899466!3d59.503658456086654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m5!1s0x465fa5b9e394e683%3A0x3d961d2a891ea694!2sBro+station!3m2!1d59.511421999999996!2d17.6359101!4m3!3m2!1d59.495443699999996!2d17.625407!5e0!3m2!1sen!2sse!4v1525200563257" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
+  <!-- https://www.google.com/maps/dir/Bro+station/59.4954437,17.625407/@59.5036585,17.6242485,15z/data=!3m1!4b1!4m9!4m8!1m5!1m1!1s0x465fa5b9e394e683:0x3d961d2a891ea694!2m2!1d17.6359101!2d59.511422!1m0!3e0?hl=en-US -->
 </template>
 
 <script>

@@ -17,7 +17,7 @@ export default {
   data () {
     return {
       h1: {
-        SV: 'Tid och Plats',
+        SV: 'Schema',
         EN: 'Schedule',
         JP: 'スケジュール'
       },
