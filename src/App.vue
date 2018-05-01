@@ -7,14 +7,14 @@
       <b-collapse is-nav id="nav_collapse">
 
         <b-navbar-nav>
-          <b-nav-item to="/home">{{ home[this.$root.lang] }}</b-nav-item>
-          <b-nav-item to="/schedule">{{ schema[this.$root.lang] }}</b-nav-item>
-          <b-nav-item to="/transport">{{ transport[this.$root.lang] }}</b-nav-item>
-          <b-nav-item to="/food">{{ food[this.$root.lang] }}</b-nav-item>
-          <b-nav-item to="/accomodation">{{ accomodation[this.$root.lang] }}</b-nav-item>
-          <b-nav-item to="/dresscode">{{ dresscode[this.$root.lang] }}</b-nav-item>
-          <b-nav-item to="/wishlist">{{ wishlist[this.$root.lang] }}</b-nav-item>
-          <b-nav-item to="/contact">{{ contact[this.$root.lang] }}</b-nav-item>
+          <b-nav-item id="zzbot" to="/home">{{ home[this.$root.lang] }}</b-nav-item>
+          <b-nav-item id="zzbot" to="/schedule">{{ schema[this.$root.lang] }}</b-nav-item>
+          <b-nav-item id="zzbot" to="/transport">{{ transport[this.$root.lang] }}</b-nav-item>
+          <b-nav-item id="zzbot" to="/food">{{ food[this.$root.lang] }}</b-nav-item>
+          <b-nav-item id="zzbot" to="/accomodation">{{ accomodation[this.$root.lang] }}</b-nav-item>
+          <b-nav-item id="zzbot" to="/dresscode">{{ dresscode[this.$root.lang] }}</b-nav-item>
+          <b-nav-item id="zzbot" to="/wishlist">{{ wishlist[this.$root.lang] }}</b-nav-item>
+          <b-nav-item id="zzbot" to="/contact">{{ contact[this.$root.lang] }}</b-nav-item>
         </b-navbar-nav>
 
         <b-navbar-nav class="ml-auto">
@@ -127,5 +127,9 @@ p {
   background-color:white;
   box-shadow: 0px 0px 18px #888888;
 
+}
+
+#zzbot {
+  color: #000;
 }
 </style>
