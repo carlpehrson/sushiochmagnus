@@ -53,9 +53,9 @@ export default {
         JP: '交通'
       },
       food: {
-        SV: 'Dryck och Allergi',
-        EN: 'Food and Allergies',
-        JP: '飲み物・アレルギー'
+        SV: 'Mat och Dryck',
+        EN: 'Food and Drinks',
+        JP: 'ご飯・飲み物'
       },
       accomodation: {
         SV: 'Boende',
