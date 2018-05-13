@@ -32,9 +32,9 @@ export default {
         JP: 'それええけど、どういう意味？'
       },
       p2: {
-        SV: 'Black Tie Optional betyder mer eller mindre mörk kostym(mörkblå, mörkgrå, svart etc.), men om man vill får man även ha Smoking. För damer är det lite mer fritt, men helvitt, helsvart, och helrött är strikt undanbett. Detta betyder inte att dessa tre färger är helt förbjudna, men om större delen av din utstyrsel är i dessa färger bör du tänka om.',
-        EN: 'Black Tie Optional is more or less what it sounds like: the code is generally interpreted as Dark Suit but if you want to you can also wear a Smoking (Tuxedo in simplified English). For the ladies the dresscode is a bit more open, but fully white, fully black, and fully red is strictly prohibited. This is not to say that any black, white, or red is forbidden, but using mainly these colours is.',
-        JP: 'Black Tie Optionalを簡単にいうと、男性は黒・ネイビー・グレーなどのスーツを着てもええし、タクシードでもありです。女性はもう少し自由に選べられるが、真っ白、真っ赤、真っ黒は絶対禁止です。白、黒、赤自体は完全に禁じられていないけど、できるだけ避けてください。'
+        SV: 'Black Tie Optional betyder mer eller mindre mörk kostym(mörkblå, mörkgrå, svart etc.), men om man vill får man även ha Smoking. Generellt sett ska man aldrig klä sig stiligare än brudparet. För damer är det lite mer fritt, men helvitt, helsvart, och helrött är strikt undanbett. Detta betyder inte att dessa tre färger är helt förbjudna, men om större delen av din utstyrsel är i dessa färger bör du tänka om.',
+        EN: 'Black Tie Optional is more or less what it sounds like: the code is generally interpreted as Dark Suit for men, but if you want to you can also wear a Smoking (Tuxedo in simplified English). For the ladies the dresscode is a bit more open, but fully white, fully black, and fully red is strictly prohibited. This is not to say that any black, white, or red is forbidden, but using mainly these colours is. As a general rule of thumb, you should never try to outdress the bride and groom.',
+        JP: 'Black Tie Optionalを簡単にいうと、男性は黒・ネイビー・グレーなどのスーツを着てもええし、タクシードもありです。女性はもう少し自由に選べられるが、真っ白、真っ赤、真っ黒は絶対禁止です。白、黒、赤そのものは完全に禁じられていないけど、できるだけ避けてください。それ以外は特になく、日本みたいに靴は足指を出したアカンとかはないけど、新郎新婦より綺麗な衣服は避けるべきです。'
       }
     }
   }

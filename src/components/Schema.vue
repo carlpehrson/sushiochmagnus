@@ -28,11 +28,11 @@ export default {
       },
       timeline: [
         {
-          h1: '15:00',
+          h1: '14:50',
           p1: {
-            SV: 'Buss avgår från Bro Station till Bro Hof Slott',
-            EN: 'Bus leaves Bro Station going to Bro Hof Slott',
-            JP: 'Bro StationからBro Hof Slottへのバスが出発'
+            SV: 'Bilar avgår från Bro Station till Bro Hof Slott',
+            EN: 'Cars leaves Bro Station going to Bro Hof Slott',
+            JP: 'Bro StationからBro Hof Slottへの車が出発'
           }
         },
         {
@@ -79,15 +79,15 @@ export default {
           h1: '23:00',
           p1: {
             SV: 'Efterfesten fortsätter och vickning serveras.',
-            EN: 'Party continues with snacks / a light meal.',
+            EN: 'Party continues with snacks / light meal.',
             JP: '夜中軽食、2次会が続く。'
           }
         },
         {
           h1: '00:50',
           p1: {
-            SV: 'Festen avslutas och buss avgår till Görvälns Slott för övernattning.',
-            EN: 'Party is over, bus via Bro Station to Görvälns Slott for hotel.',
+            SV: 'Festen avslutas och buss åker via Bro Station för de som åker hem, vidare till Görvälns Slott för de som övernattar.',
+            EN: 'Party is over, bus via Bro Station for those going home, continuing to Görvälns Slott for those staying at the hotel.',
             JP: '2次会終了、バスでBro Station軽油でGörvälns Slottまで行って泊まる。'
           }
         }
